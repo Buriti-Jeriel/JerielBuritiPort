@@ -37,6 +37,19 @@ section {
     margin: 10px; /* Adiciona margem ao redor das seções */
 }
 
+.texto-sobreposto {
+    position: absolute;
+    top: 50%; /* possionar o elemento*/
+    left: 50%; /* possionar o elemento*/
+    transform: translate(59%, -70%);
+    color: white; /*Cor do texto*/
+    text-align: center;
+    background-color: rgba(123, 123, 128, 0.5); /* Cor de fundo com transparência */
+    border-radius: 30px; /* arredondamento nas bordas */
+    padding: 60px 80px; /* 60px de padding no topo e na base, 80px de padding na esquerda e na direita */
+}
+}
+
 /* Estilos do formulário de contato */
 form {
     max-width: 400px; /* largura do formulário */
@@ -75,3 +88,5 @@ form button {
 form button:hover {
     background-color: #555; /* Altera a cor de fundo ao passar sobre o botão */
 }
+
+
